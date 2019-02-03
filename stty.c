@@ -5,6 +5,7 @@
  */
 /*
  * Copyright (c) 2003 Gunnar Ritter
+ * Copyright (c) 2019 Cág
  *
  * This software is provided 'as-is', without any express or implied
  * warranty. In no event will the authors be held liable for any damages
@@ -50,10 +51,11 @@ static const char sccsid[] USED = "@(#)/usr/ucb/stty.sl	1.23 (gritter) 1/22/06";
 #include <libgen.h>
 #include <ctype.h>
 #include <locale.h>
-#include "pathconf.h"
 #ifndef	TIOCGWINSZ
 #include <sys/ioctl.h>
 #endif
+
+#include "pathconf.h"
 
 #ifndef	VSWTCH
 #ifdef	VSWTC
