@@ -1,0 +1,5 @@
+stty - set the options for a terminal
+
+To build and install, edit Makefile to your liking and match your local setup.
+Then run `make` to build, and `make install` to install stty, as root if needed.
+To clean object files, run `make clean`.
